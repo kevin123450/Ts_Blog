@@ -1,0 +1,46 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+  }
+  
+  li  {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  div{
+    position: relative;
+    border: 3px solid #73AD21;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    
+  }
+  .center {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+
