@@ -36,7 +36,7 @@ let allPostslist = document.getElementById("animal1");
 for (let i = 0; i < allPosts.length; i++){
     if(allPosts[i].blogId==blogIdfromLS){
     
-    let newLi = document.createElement("li");
+    let newLi = document.createElement("section");
 
     let author = document.createElement("h5");
     let title = document.createElement("h1");

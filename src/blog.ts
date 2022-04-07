@@ -43,14 +43,14 @@ class Post {
 }
 
 let bloginfo1 = new Blog1("Author","Animal1", "lorem ipsum", "2022-X-X", 1);
-let bloginfo2 = new Blog1("Author","Animal1 pt 2", "lorem ipsum", "2022-X-X", 1);
-let bloginfo3 = new Blog1("Author","Running", "lorem ipsum", "2023-X-X", 2);
-let bloginfo4 = new Blog1("Author","Choklad", "lorem ipsum", "2024-X-X", 3);
+let bloginfo2 = new Blog1("Author","Animal2", "lorem ipsum", "2022-X-X", 2);
+let bloginfo3 = new Blog1("Author","Running", "lorem ipsum", "2023-X-X", 3);
+let bloginfo4 = new Blog1("Author","Choklad", "lorem ipsum", "2024-X-X", 4);
 
 let post1 = new Post("Author","Animal1", "lorem ipsum","2022-X-X", 1);
-let post2 = new Post("Author","Animal1", "lorem ipsum","2022-X-X", 1);
-let post3 = new Post("Author","Running", "lorem ipsum","2023-X-X", 2);
-let post4 = new Post("Author","Choklad", "lorem ipsum","2024-X-X", 3);
+let post2 = new Post("Author","Animal2", "lorem ipsum","2022-X-X", 2);
+let post3 = new Post("Author","Running", "lorem ipsum","2023-X-X", 3);
+let post4 = new Post("Author","Choklad", "lorem ipsum","2024-X-X", 4);
 
 let blogs = [bloginfo1, bloginfo2, bloginfo3, bloginfo4];
 let posts = [post1, post2, post3, post4];

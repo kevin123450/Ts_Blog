@@ -25,7 +25,7 @@ var blogIdfromLS = JSON.parse(blogId.toString());
 var allPostslist = document.getElementById("animal1");
 for (var i = 0; i < allPosts.length; i++) {
     if (allPosts[i].blogId == blogIdfromLS) {
-        var newLi = document.createElement("li");
+        var newLi = document.createElement("section");
         var author = document.createElement("h5");
         var title = document.createElement("h1");
         var text = document.createElement("h3");
